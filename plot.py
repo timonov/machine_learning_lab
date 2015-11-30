@@ -15,9 +15,3 @@ def plot_classification_report(cm, title='Classification report ', with_avg_tota
     pl.ylabel('True')
     pl.show()
 
-
-# more about confusion_matrix:
-# https://en.wikipedia.org/wiki/
-# http://stackoverflow.com/questions/19233771/sklearn-plot-confusion-matrix-with-labels
-# # http://stackoverflow.com/questions/28200786/how-to-plot-scikit-learn-classification-report
-# http://stackoverflow.com/questions/23299066/how-can-i-interpret-scikit-learn-confusion-matrix

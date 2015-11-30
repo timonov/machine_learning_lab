@@ -3,6 +3,7 @@
 ### Алгоритмы:
 
  - RandomForestClassifier
- - GaussianNB
+ - BernoulliNB
  - GradientBoostingClassifier
-  
+
+
