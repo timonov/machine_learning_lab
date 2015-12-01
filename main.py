@@ -105,8 +105,8 @@ if __name__ == "__main__":
     expected_rfc, predicted_rfc = random_forest_classifier(_x_train, _y_train, _x_test, _y_test)
     expected_gbc, predicted_gbc = gradient_boosting_classifier(_x_train, _y_train, _x_test, _y_test)
 
-    confusion_matrix_gnb = metrics.confusion_matrix(expected_bnb, predicted_bnb)
-    plot.plot_classification_report(confusion_matrix_gnb)
+    confusion_matrix_bnb = metrics.confusion_matrix(expected_bnb, predicted_bnb)
+    plot.plot_classification_report(confusion_matrix_bnb)
     confusion_matrix_frc = metrics.confusion_matrix(expected_rfc, predicted_rfc)
     plot.plot_classification_report(confusion_matrix_frc)
     confusion_matrix_gbc = metrics.confusion_matrix(expected_gbc, predicted_gbc)
