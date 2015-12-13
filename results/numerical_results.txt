@@ -1,0 +1,9 @@
+C:\Python27\python.exe C:/Users/Nas/PycharmProjects/the_experiments/main.py
+RandomForestClassifier:
+0.675
+BernoulliNB:
+0.515
+GradientBoostingClassifier:
+0.670
+
+Process finished with exit code 0
