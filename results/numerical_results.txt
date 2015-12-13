@@ -1,4 +1,4 @@
-C:\Python27\python.exe C:/Users/Nas/PycharmProjects/the_experiments/main.py
+
 RandomForestClassifier:
 0.675
 BernoulliNB:
