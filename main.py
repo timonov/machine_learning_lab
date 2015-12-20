@@ -92,7 +92,7 @@ if __name__ == "__main__":
     accuracy_score_bnb = []
     accuracy_score_rfc = []
     accuracy_score_gbc = []
-    for i in range(30, 160, 20):
+    for i in range(30, 174, 20):
         _x_train_steps.append(i)
         _x_train, _y_train, _x_test, _y_test, _x_all, _y_all = \
             prepare_matrix_for_feature_engineering(_matrix_from_file, i)
