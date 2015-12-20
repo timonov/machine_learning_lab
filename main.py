@@ -85,7 +85,7 @@ def accuracy(y_true, y_prediction):
 ##############################################################################################################
 
 if __name__ == "__main__":
-    _matrix_from_file = download_matrix("./data.txt")
+    _matrix_from_file = download_matrix("./dataset.txt")
 
 # section one: increase _x_train and calculate accuracy score
     _x_train_steps = []
