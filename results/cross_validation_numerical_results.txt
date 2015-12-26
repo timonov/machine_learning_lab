@@ -1,10 +1,22 @@
 Educability:
 
-RandomForestClassifier:
-0.675
-BernoulliNB:
-0.515
-GradientBoostingClassifier:
-0.670
+----------------------without using optimal parametrs-------------------
+--- Simple run ---
+BernoulliNB: 0.413
+RandomForestClassifier: 0.538
+GradientBoostingClassifier: 0.596
+--- Cross validation ---
+BernoulliNB: 0.526
+RandomForestClassifier: 0.624
+GradientBoostingClassifier: 0.634
 
-Process finished with exit code 0
+----------------------with optimal parametrs-------------------
+--- Simple run ---
+BernoulliNB: 0.413
+RandomForestClassifier: 0.567
+GradientBoostingClassifier: 0.558
+--- Cross validation ---
+BernoulliNB: 0.515
+RandomForestClassifier: 0.629
+GradientBoostingClassifier: 0.655
+
